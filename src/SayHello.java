@@ -15,7 +15,12 @@ public class SayHello implements Greetings {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        String name = "الكوز-دوس";
+        if (args.length > 0) {
+            name=args[0];
+        }
         System.out.println(ola + " daragoi Taxa");
+        
         
     }
     
