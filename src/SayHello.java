@@ -8,14 +8,14 @@
  *
  * @author cmp3osmantm
  */
-public class SayHello {
+public class SayHello implements Greetings {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        System.out.println("Privet daragoi Taxashka");
+        System.out.println(ola + " daragoi Taxa");
         
     }
     
