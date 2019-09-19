@@ -15,7 +15,7 @@ public class SayHello implements Greetings {
      */
     public static void main(String[] args) {
         // TODO code application logic here
-        String name = "الكوز-دوس";
+        String name = "udari-koaz@ru";
         if (args.length > 0) {
             name=args[0];
         }
