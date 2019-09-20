@@ -14,13 +14,11 @@ public class SayHello implements Greetings {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         String name = "udari-koaz@ru";
         if (args.length > 0) {
             name=args[0];
         }
-        System.out.println(ola + " daragoi Taxa");
-        
+        System.out.println("Privet daragoi " + name + " :)");
         
     }
     
