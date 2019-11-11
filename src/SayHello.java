@@ -14,7 +14,7 @@ public class SayHello implements Greetings {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        String name = "udari-koaz@ru";
+        String name = "udari-kvaz@ru";
         if (args.length > 0) {
             name=args[0];
         }
